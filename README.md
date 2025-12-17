@@ -6,60 +6,52 @@ Live Demo
 
 👉 [https://sctml01-w9jmwfweqvu9cbon8x6t28.streamlit.app/]
 
-Project Overview:
+## 📌 Project Overview
 
-House prices depend on several factors such as property size and room count.
-This project uses a Linear Regression model trained on real housing data to estimate house prices based on:
+House price prediction is an important real-world problem in real estate.  
+This application uses a **Linear Regression model** trained on housing data to estimate the selling price of a house based on:
 
-Living Area (square feet)
+- Living Area (square feet)
+- Number of Bedrooms
+- Number of Bathrooms
 
-Number of Bedrooms
+Users can enter these values through a web interface and instantly get a predicted price.
 
-Number of Bathrooms
+---
 
-The trained model is integrated into an interactive Streamlit web application that allows users to enter values and instantly view the predicted price.
-Machine Learning Details
+## 🧠 Machine Learning Details
 
-Algorithm Used: Linear Regression
+- **Algorithm Used:** Linear Regression  
+- **Learning Type:** Supervised Learning (Regression)  
+- **Target Variable:** `SalePrice`  
 
-Type: Supervised Learning (Regression)
+### Input Features:
+- `GrLivArea` – Above ground living area (sq ft)
+- `BedroomAbvGr` – Number of bedrooms
+- `FullBath` – Number of full bathrooms
 
-Target Variable: SalePrice
+The model is implemented using **scikit-learn**.
 
-Input Features:
+---
 
-GrLivArea – Above ground living area (sq ft)
+## 🛠️ Technologies Used
 
-BedroomAbvGr – Number of bedrooms
+- Python  
+- Streamlit  
+- Pandas  
+- Scikit-learn  
+- GitHub  
+- Streamlit Community Cloud  
 
-FullBath – Number of full bathrooms
+---
 
-The model is trained using the scikit-learn library.
-🛠️ Technologies Used
+## ✨ Application Features
 
-Python
-
-Streamlit (Web App Framework)
-
-Pandas (Data Handling)
-
-Scikit-learn (Machine Learning)
-
-GitHub (Version Control & Deployment)
-
-Streamlit Community Cloud (Hosting)
-
-🖥️ Application Features
-
-Interactive user input via sliders and dropdowns
-
-Real-time house price prediction
-
-Clean and professional UI
-
-Uses a real machine learning model (not hardcoded values)
-
-Deployed and accessible via a public URL
+- Interactive user inputs (sliders & dropdowns)
+- Real-time house price prediction
+- Clean and professional UI
+- Uses a real machine learning model
+- Deployed as a live web application
 
 📁 Project Structure
 house-price-streamlit/
@@ -67,6 +59,7 @@ house-price-streamlit/
 │── train.csv             # Dataset used for training
 │── requirements.txt      # Required Python libraries
 │── README.md             # Project documentation
+
 ▶️ How to Run the Project Locally
 
 Clone the repository:
