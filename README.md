@@ -53,10 +53,10 @@ The model is implemented using **scikit-learn**.
 
  Project Structure
 house-price-streamlit/
-│── app.py                # Streamlit application code
-│── train.csv             # Dataset used for training
-│── requirements.txt      # Required Python libraries
-│── README.md             # Project documentation
+│── app.py                
+│── train.csv            
+│── requirements.txt      
+│── README.md            
 
  How to Run the Project Locally
 
