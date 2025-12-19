@@ -6,7 +6,7 @@ Live Demo
 
 👉 [https://sctml01-w9jmwfweqvu9cbon8x6t28.streamlit.app/]
 
-## 📌 Project Overview
+ Project Overview:
 
 House price prediction is an important real-world problem in real estate.  
 This application uses a **Linear Regression model** trained on housing data to estimate the selling price of a house based on:
@@ -17,9 +17,7 @@ This application uses a **Linear Regression model** trained on housing data to e
 
 Users can enter these values through a web interface and instantly get a predicted price.
 
----
-
-## 🧠 Machine Learning Details
+ Machine Learning Details:
 
 - **Algorithm Used:** Linear Regression  
 - **Learning Type:** Supervised Learning (Regression)  
@@ -34,7 +32,7 @@ The model is implemented using **scikit-learn**.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python  
 - Streamlit  
@@ -45,7 +43,7 @@ The model is implemented using **scikit-learn**.
 
 ---
 
-## ✨ Application Features
+## Application Features
 
 - Interactive user inputs (sliders & dropdowns)
 - Real-time house price prediction
@@ -53,14 +51,14 @@ The model is implemented using **scikit-learn**.
 - Uses a real machine learning model
 - Deployed as a live web application
 
-📁 Project Structure
+ Project Structure
 house-price-streamlit/
 │── app.py                # Streamlit application code
 │── train.csv             # Dataset used for training
 │── requirements.txt      # Required Python libraries
 │── README.md             # Project documentation
 
-▶️ How to Run the Project Locally
+ How to Run the Project Locally
 
 Clone the repository:
 
@@ -81,25 +79,8 @@ Run the Streamlit app:
 
 streamlit run app.py
 
-🌐 Deployment
+ Deployment:
 
 The application is deployed using Streamlit Community Cloud by connecting the GitHub repository SCT_ML_01 and selecting app.py as the main file.
 
-🎯 Future Enhancements
 
-Add more house features (location, year built, etc.)
-
-Improve accuracy using advanced regression models
-
-Save and load the trained model
-
-Add data visualizations
-
-👩‍💻 Author
-
-Thota Laxmi Prasanna
-Machine Learning Intern
-
-📜 License
-
-This project is created for learning and educational purposes.
